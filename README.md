@@ -3,6 +3,6 @@
 **Integrantes**  
 Alvaro Mozos Olmo  
 Raúl Mata Muela  
-Alonso Antonio Zamora Zamora(coordinadora)   
-Sandra Rodriguez Sanchez-Gil  
+Alonso Antonio Zamora Zamora    
+Sandra Rodriguez Sanchez-Gil(coordinadora)  
 Manuel Villanueva Alises  
