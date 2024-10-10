@@ -5,4 +5,5 @@ Alvaro Mozos Olmo
 Raúl Mata Muela  
 Alonso Antonio Zamora Zamora    
 Sandra Rodriguez Sanchez-Gil(coordinadora)  
-Manuel Villanueva Alises  
+Manuel Villanueva Alises   
+Steven Tipantuña Aquieta  
