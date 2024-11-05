@@ -4,9 +4,9 @@
 
 | Nombre                                    | Rol              |
 |-------------------------------------------|------------------|
-| Alvaro Mozos Olmo                         | Experto en Git   |
+| Álvaro Mozos Olmo                         | Experto en Git   |
 | Raúl Mata Muela                           | Experto en Git   |
 | Alonso Antonio Zamora Zamora              | Experto en Maven |
-| **Sandra Rodriguez Sanchez-Gil**          | Coordinadora     |
+| Sandra Rodriguez Sanchez-Gil              | Coordinadora     |
 | Manuel Villanueva Alises                  | Secretario       |
 | Steven Tipantuña Aquieta                  | Experto en Maven |
