@@ -1,9 +1,12 @@
 ## Iso24-ISO2-C02
 
-**Integrantes**  
-Alvaro Mozos Olmo  
-Raúl Mata Muela  
-Alonso Antonio Zamora Zamora    
-Sandra Rodriguez Sanchez-Gil(coordinadora)  
-Manuel Villanueva Alises   
-Steven Tipantuña Aquieta  
+## Integrantes del proyecto
+
+| Nombre                                    | Rol              |
+|-------------------------------------------|------------------|
+| Álvaro Mozos Olmo                         | Experto en Git   |
+| Raúl Mata Muela                           | Experto en Git   |
+| Alonso Antonio Zamora Zamora              | Experto en Maven |
+| Sandra Rodriguez Sanchez-Gil              | Coordinadora     |
+| Manuel Villanueva Alises                  | Secretario       |
+| Steven Tipantuña Aquieta                  | Experto en Maven |
