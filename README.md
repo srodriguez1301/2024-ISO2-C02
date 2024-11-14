@@ -1,4 +1,7 @@
-## ISO_24-ISO2-C02
+> [!NOTE]
+> Toda la documentación sobre el proyecto se encuentra en nuestra [Wiki](https://github.com/srodriguez1301/2024-ISO2-C02/wiki)
+> 
+# ISO_24-ISO2-C02
 
 ## Integrantes del Proyecto
 
