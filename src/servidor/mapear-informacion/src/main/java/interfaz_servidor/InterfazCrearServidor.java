@@ -1,5 +1,7 @@
 package interfaz_servidor;
 
+import java.util.List;
+
 import Dominio.*;
 
 public class InterfazCrearServidor {
@@ -17,7 +19,7 @@ public class InterfazCrearServidor {
 	 * 
 	 * @param datos
 	 */
-	public MapaActivo validarDatos(crearActivoDeDatos datos) {
+	public mapaActivo validarDatos(crearActivoDeDatos datos) {
 		// TODO - implement InterfazCrearServidor.validarDatos
 		throw new UnsupportedOperationException();
 	}
@@ -35,7 +37,7 @@ public class InterfazCrearServidor {
 	 * 
 	 * @param datos
 	 */
-	public boolean generarMapaVisual(List<crerarActivoDeDatos> datos) {
+	public boolean generarMapaVisual(List<crearActivoDeDatos> datos) {
 		// TODO - implement InterfazCrearServidor.generarMapaVisual
 		throw new UnsupportedOperationException();
 	}

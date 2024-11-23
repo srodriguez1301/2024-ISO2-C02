@@ -1,10 +1,13 @@
 package Dominio;
 
+import java.sql.Date;
+import java.util.List;
+
 public class mapaActivo {
 
 	private int id;
-	private string nombre;
-	private List<string> relaciones;
+	private String nombre;
+	private List<String> relaciones;
 	private Date fechaGenerado;
 
 	/**
@@ -14,7 +17,7 @@ public class mapaActivo {
 	 * @param relaciones
 	 * @param fechaGenerado
 	 */
-	public void constructor(int id, string nombre, List<String> relaciones, Date fechaGenerado) {
+	public void constructor(int id, String nombre, List<String> relaciones, Date fechaGenerado) {
 		// TODO - implement mapaActivo.constructor
 		throw new UnsupportedOperationException();
 	}

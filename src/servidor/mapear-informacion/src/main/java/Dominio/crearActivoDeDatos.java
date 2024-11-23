@@ -1,12 +1,13 @@
 package Dominio;
 
+import java.sql.Date;
+
 public class crearActivoDeDatos {
 
 	private int id;
 	private String nombre;
 	private String descripcion;
 	private Date fechaCreación;
-	private estadoActivo estado;
 
 	/**
 	 * 
@@ -16,7 +17,7 @@ public class crearActivoDeDatos {
 	 * @param descripcion
 	 * @param fechaCreacion
 	 */
-	public void constructor(int id, string nombre, string tipo, string descripcion, Date fechaCreacion) {
+	public void constructor(int id, String nombre, String tipo, String descripcion, Date fechaCreacion) {
 		// TODO - implement crearActivoDeDatos.constructor
 		throw new UnsupportedOperationException();
 	}
@@ -25,12 +26,12 @@ public class crearActivoDeDatos {
 		return this.id;
 	}
 
-	public string getNombre() {
+	public String getNombre() {
 		// TODO - implement crearActivoDeDatos.getNombre
 		throw new UnsupportedOperationException();
 	}
 
-	public string getDescripcion() {
+	public String getDescripcion() {
 		// TODO - implement crearActivoDeDatos.getDescripcion
 		throw new UnsupportedOperationException();
 	}
