@@ -1,14 +1,19 @@
-package Diseño_It2.InterfazUsuario;
+package es.uclm.esi.clasificar.datos.cliente.InterfazUsuario;
+
+import java.util.List;
+
+import es.uclm.esi.clasificar.datos.cliente.Dominio.Dato;
+
 
 public class VistaClasificacion {
-	private List<Dato> _datosSeleccionados;
-	private List<String> _categoriasDisponibles;
+	private List<Dato> datosSeleccionados;
+	private List<String> categoriasDisponibles;
 
 	public void mostrarFormularioClasificacion(List<Dato> aDatos) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void__ asignarCategoria(Dato aDato, String aCategoria) {
+	public void asignarCategoria(Dato aDato, String aCategoria) {
 		throw new UnsupportedOperationException();
 	}
 }

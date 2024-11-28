@@ -1,6 +1,4 @@
-package Diseño_It2.Dominio;
+package es.uclm.esi.clasificar.datos.cliente.Dominio;
 
 public enum estado {
-	public Object _pENDIENTE;
-	public Object _cLASIFICADO;
 }

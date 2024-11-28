@@ -1,17 +1,16 @@
-package Diseño_It2.Dominio;
+package es.uclm.esi.clasificar.datos.cliente.Dominio;
 
 public class Dato {
 	private EstadoClasificacion _estadoClasificacion;
 	private Categoria _categoria;
 	private String _id;
 	private String _nombre;
-	public EstadoClasificacion _____1..._;
 
 	public void asignarCategoria(Categoria aCategoria) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void__ actualizarEstado(EstadoClasificacion aEstado) {
+	public void actualizarEstado(EstadoClasificacion aEstado) {
 		throw new UnsupportedOperationException();
 	}
 

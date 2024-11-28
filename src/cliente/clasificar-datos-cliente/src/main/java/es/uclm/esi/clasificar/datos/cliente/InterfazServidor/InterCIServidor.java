@@ -1,6 +1,6 @@
-package Diseño_It2.InterfazServidor;
+package es.uclm.esi.clasificar.datos.cliente.InterfazServidor;
 
-import Diseño_It2.Dominio.EstadoClasificacion;
+import es.uclm.esi.clasificar.datos.cliente.Dominio.EstadoClasificacion;
 
 public class InterCIServidor {
 

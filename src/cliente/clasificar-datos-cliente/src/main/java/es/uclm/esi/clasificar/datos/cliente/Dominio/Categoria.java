@@ -1,4 +1,4 @@
-package Diseño_It2.Dominio;
+package es.uclm.esi.clasificar.datos.cliente.Dominio;
 
 public class Categoria {
 	private String _nombre;
@@ -26,7 +26,7 @@ public class Categoria {
 	}
 
 	public void getAttribute() {
-		return this._attribute;
+		return;
 	}
 
 	public void setAttribute(Object aAttribute) {
