@@ -1,35 +1,35 @@
 package Dominio;
 
 public class Categoria {
-	private String _nombre;
-	private String _descripcion;
-	private Object _attribute;
 
-	public Boolean esCategoriaValida(String aCategoria) {
-		throw new UnsupportedOperationException();
-	}
+    private String nombre;
+    private String descripcion;
 
-	public String getNombre() {
-		return this._nombre;
-	}
+    // Otros métodos, constructores, etc.
 
-	public void setNombre(String aNombre) {
-		this._nombre = aNombre;
-	}
+    public boolean esCategoriaValida(String nombre) {
+        // Ejemplo de validación: el nombre no puede ser nulo ni vacío
+        if (nombre == null || nombre.trim().isEmpty()) {
+            return false;
+        }
+        // Si hay más reglas de validación, añádelas aquí
+        return true;
+    }
 
-	public String getDescripcion() {
-		return this._descripcion;
-	}
+    // Métodos setters y getters
+    public String getNombre() {
+        return nombre;
+    }
 
-	public void setDescripcion(String aDescripcion) {
-		this._descripcion = aDescripcion;
-	}
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
-	public Object getAttribute() {
-		return this._attribute;
-	}
+    public String getDescripcion() {
+        return descripcion;
+    }
 
-	public void setAttribute(Object aAttribute) {
-		this._attribute = aAttribute;
-	}
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 }

@@ -1,33 +1,43 @@
 package Dominio;
 
 public class Dato {
-	private EstadoClasificacion _estadoClasificacion;
-	private Categoria _categoria;
-	private String _id;
-	private String _nombre;
-	public EstadoClasificacion _____1;
+    private String id;
+    private String nombre;
+    private Categoria categoria;
+    private EstadoClasificacion estado;
 
-	public void asignarCategoria(Categoria aCategoria) {
-		throw new UnsupportedOperationException();
-	}
+    // Getters y setters
+    public String getId() {
+        return id;
+    }
 
-	public Void actualizarEstado(EstadoClasificacion aEstado) {
-		throw new UnsupportedOperationException();
-	}
+    public void setId(String id) {
+        this.id = id;
+    }
 
-	public String getId() {
-		return this._id;
-	}
+    public String getNombre() {
+        return nombre;
+    }
 
-	public void setId(String aId) {
-		this._id = aId;
-	}
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
-	public String getNombre() {
-		return this._nombre;
-	}
+    public Categoria getCategoria() {
+        return categoria;
+    }
 
-	public void setNombre(String aNombre) {
-		this._nombre = aNombre;
-	}
+    public EstadoClasificacion getEstado() {
+        return estado;
+    }
+
+    // Implementación del método asignarCategoria
+    public void asignarCategoria(Categoria categoria) {
+        this.categoria = categoria; // Asigna la categoría
+    }
+
+    // Implementación del método actualizarEstado
+    public void actualizarEstado(EstadoClasificacion estado) {
+        this.estado = estado; // Asigna el estado
+    }
 }
