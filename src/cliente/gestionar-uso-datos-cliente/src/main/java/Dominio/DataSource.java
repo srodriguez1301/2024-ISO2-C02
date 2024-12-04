@@ -1,9 +1,17 @@
-package Cliente.Dominio;
+package Dominio;
 
 public class DataSource {
-	private int _id;
-	private String _name;
-	private String _type;
-	private String _classification;
-	public Task _unnamed_Task_7;
+    private int id;
+    private String name;
+    private String type;
+    private String classification;
+    private Task task; // Campo de tipo Task
+
+    public Task getTask() {
+        return task;
+    }
+
+    public void setTask(Task task) {
+        this.task = task;
+    }
 }

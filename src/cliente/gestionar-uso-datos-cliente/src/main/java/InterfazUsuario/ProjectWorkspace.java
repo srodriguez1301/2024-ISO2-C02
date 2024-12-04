@@ -1,10 +1,16 @@
-package Cliente.InterfazUsuario;
+package InterfazUsuario;
+
+import java.util.List;
+
+import Dominio.Colaborator;
+import Dominio.Proposal;
+import Dominio.Task;
 
 public class ProjectWorkspace {
 	private String _projectName;
 	private String _projectDescription;
 	private List<String> _projectObjectives;
-	private List<Collaborator> _collaborators;
+	private List<Colaborator> _collaborators;
 	private List<String> _permissions;
 	private List<String> _dataSources;
 	private List<String> _dataClassification;
@@ -16,7 +22,7 @@ public class ProjectWorkspace {
 		throw new UnsupportedOperationException();
 	}
 
-	public void addCollaborator(Collaborator aCollaborator) {
+	public void addCollaborator(Colaborator aCollaborator) {
 		throw new UnsupportedOperationException();
 	}
 

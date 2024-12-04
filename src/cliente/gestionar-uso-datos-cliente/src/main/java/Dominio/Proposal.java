@@ -1,9 +1,23 @@
-package Cliente.Dominio;
+package Dominio;
 
 public class Proposal {
-	private int _id;
-	private String _details;
-	private String _status;
-	public Task ______;
-	public Colaborator _unnamed_Colaborator_141;
+    private String title;
+
+    // Constructor sin argumentos
+    public Proposal() {
+    }
+
+    // Constructor con un argumento para inicializar el título
+    public Proposal(String title) {
+        this.title = title;
+    }
+
+    // Getter y Setter para el título
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
 }

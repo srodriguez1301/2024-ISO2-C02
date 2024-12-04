@@ -1,4 +1,9 @@
-package Cliente.InterfazUsuario;
+package InterfazUsuario;
+
+import java.util.List;
+
+import Dominio.Project;
+import Dominio.Task;
 
 public class PantallaPrincipal {
 	private List<Project> _projectList;

@@ -1,4 +1,4 @@
-package Cliente.InterfazUsuario;
+package InterfazUsuario;
 
 public class AutentificacionIU {
 	private String _user;

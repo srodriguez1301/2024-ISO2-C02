@@ -1,12 +1,19 @@
-package Cliente.Dominio;
+package Dominio;
 
 public class Project {
-	private int _id;
-	private String _name;
-	private String _description;
-	private String _status;
-	private List<String> _objectives;
-	private List<String> _permissions;
-	public Colaborator ___;
-	public Task ______1;
+    private String name;
+
+    // Constructor
+    public Project(String name) {
+        this.name = name;
+    }
+
+    // Getter y Setter
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

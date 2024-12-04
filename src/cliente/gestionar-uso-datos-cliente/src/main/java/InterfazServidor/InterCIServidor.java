@@ -1,8 +1,13 @@
-package Cliente.InterfazServidor;
+package InterfazServidor;
+import java.util.List;
 
-import Cliente.Dominio.Project;
-import Cliente.Dominio.Task;
-import Cliente.Dominio.DataSource;
+
+import org.springframework.http.ResponseEntity;
+
+import Dominio.DataSource;
+import Dominio.Colaborator;
+import Dominio.Project;
+import Dominio.Task;
 
 public class InterCIServidor {
 
@@ -54,11 +59,11 @@ public class InterCIServidor {
 		throw new UnsupportedOperationException();
 	}
 
-	public ResponseEntity<List<Collaborator>> getAllCollaborators() {
+	public ResponseEntity<List<Colaborator>> getAllCollaborators() {
 		throw new UnsupportedOperationException();
 	}
 
-	public ResponseEntity<String> addCollaborator(Collaborator aCollaborator) {
+	public ResponseEntity<String> addCollaborator(Colaborator aCollaborator) {
 		throw new UnsupportedOperationException();
 	}
 
