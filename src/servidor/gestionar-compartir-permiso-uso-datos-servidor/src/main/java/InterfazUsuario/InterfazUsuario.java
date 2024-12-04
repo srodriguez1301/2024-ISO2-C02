@@ -1,6 +1,6 @@
-package ServidorIT3.InterfazUsuario;
+package InterfazUsuario;
 
-import Cliente.Dominio.Project;
+import Dominio.*;
 
 public class InterfazUsuario {
 

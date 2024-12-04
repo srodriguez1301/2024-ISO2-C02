@@ -1,7 +1,6 @@
-package ServidorIT3.InterfazServidor;
+package InterfazServidor;
 
-import Cliente.Dominio.Project;
-import Cliente.Dominio.Task;
+import Dominio.*;
 
 public class InterfazServidor {
 
