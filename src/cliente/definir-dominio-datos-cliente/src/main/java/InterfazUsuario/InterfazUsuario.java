@@ -1,5 +1,7 @@
 package InterfazUsuario;
 
+import java.util.List;
+
 import Dominio.Dominio;
 
 public class InterfazUsuario {

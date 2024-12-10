@@ -1,5 +1,7 @@
 package InterCIServidor;
 
+import java.util.List;
+
 import Dominio.Dominio;
 
 public class ManejadorSolicitudes {
