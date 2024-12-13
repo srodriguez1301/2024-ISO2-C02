@@ -4,7 +4,7 @@ public class Usuario {
 	private String _idUsuario;
 	private String _nombre;
 	private String _tipoUsuario;
-	public Metadato __0.._;
+	public Metadato __0;
 
 	public String getIdUsuario() {
 		return this._idUsuario;

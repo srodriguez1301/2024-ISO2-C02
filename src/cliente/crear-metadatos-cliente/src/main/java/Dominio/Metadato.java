@@ -5,7 +5,7 @@ public class Metadato {
 	private String _nombre;
 	private String _descripcion;
 	private String _tipo;
-	public Usuario __0.._;
+	public Usuario __0;
 
 	public String getIdMetadato() {
 		return this._idMetadato;

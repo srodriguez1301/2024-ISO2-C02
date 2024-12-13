@@ -1,8 +1,12 @@
 package InterfazUsuario;
 
+import java.util.List;
+
+import Dominio.Metadato;
+
 public class Interfaz {
 
-	public Metadatos solicitarDatos() {
+	public Metadato solicitarDatos() {
 		throw new UnsupportedOperationException();
 	}
 
@@ -10,7 +14,7 @@ public class Interfaz {
 		throw new UnsupportedOperationException();
 	}
 
-	public void mostrarVistaPrevia(Metadatos aMetadatos) {
+	public void mostrarVistaPrevia(Metadato aMetadatos) {
 		throw new UnsupportedOperationException();
 	}
 }
