@@ -1,5 +1,7 @@
 package Dominio;
 
+import java.util.List;
+
 public class ProcesoNegocio {
 	private List<String> _entradas;
 	private List<String> _salidas;

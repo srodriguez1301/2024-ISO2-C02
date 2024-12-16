@@ -1,5 +1,7 @@
 package Dominio;
 
+import java.util.List;
+
 public class HistorialVersiones {
 	private List<Documento> _versiones;
 	public Documento _unnamed_Documento_;
