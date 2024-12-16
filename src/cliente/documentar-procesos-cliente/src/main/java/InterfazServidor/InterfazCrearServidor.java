@@ -1,5 +1,6 @@
 package InterfazServidor;
 
+import java.util.List;
 import Dominio.Documento;
 
 public class InterfazCrearServidor {

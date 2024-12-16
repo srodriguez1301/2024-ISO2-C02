@@ -1,5 +1,8 @@
 package Dominio;
 
+import java.io.File;
+import java.util.List;
+
 public class Documento {
 	private int _id;
 	private String _titulo;

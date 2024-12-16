@@ -1,6 +1,10 @@
 package InterfazUsuario;
 
 import Dominio.Usuario;
+
+import java.io.File;
+import java.util.List;
+
 import Dominio.Documento;
 
 public class UsuarioController {
